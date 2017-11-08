@@ -6,7 +6,7 @@ class LightController:
     GPIO.setup(17, GPIO.OUT)
 
   def on(self):
-    GPIO.output(17, GPIO.HIGH)
+    GPIO.output(17, GPIO.LOW)
 
   def off(self):
-    GPIO.output(17, GPIO.LOW)
+    GPIO.output(17, GPIO.HIGH)
